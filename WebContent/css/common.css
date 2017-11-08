@@ -1,0 +1,37 @@
+@CHARSET "ISO-8859-1";
+
+.header {
+    position: fixed;
+    top: 2px;
+    width: 90%;
+    height:30%;
+    margin-left:5%;
+    background-image: url("../images/background/top_bg.jpg");
+    background-repeat:repeat-x;
+}
+
+.footer {
+    position: fixed;
+	vertical-align :bottom;
+    bottom: 1px;
+    width: 90%;
+    height: 5%;
+	margin-left:5%;
+	background-image: url("../images/background/footer_bg.jpg");
+    background-repeat:repeat-x;
+    z-index: -1;
+}
+
+.page_body {
+	margin: 130px auto ;
+	margin-left:5%;
+	width: 90%;
+}
+
+.page_frame {
+	width: 101%;
+	height: 400px;
+	
+
+}
+
